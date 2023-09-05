@@ -44,11 +44,8 @@ display: flex;
     border-radius: 5px;
 }
 
-/* .tags{
-    display: grid;
-    column-gap:50px;
-    margin-top: 50vh;
-    margin: 30vh;
+.tags{
+    margin: 50px;
     background-color:white;
-} */
+}
 
