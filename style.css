@@ -1,0 +1,54 @@
+.tagscontainer{
+    background-color: rgb(244, 242, 242) !important;
+    height: 100vh;
+}
+
+.first-part{
+display: flex;
+}
+.search-form {
+    margin: 20px;
+}
+
+.search-button {
+    background-color: #0b7dda;
+    color: aliceblue;
+    width: 20%;
+    padding: 10px;
+    cursor: pointer;
+    border-left: none;
+    border: 1px solid rgb(232, 228, 228);
+    border-radius: 3px;
+    float: left;
+}
+
+.input-text {
+    padding: 10px;
+    font-size: 17px;
+    border-right: none;
+    border-radius: 3px 0 0 3px;
+    border: none;
+    background-color:white;
+    float: left;
+    width: 50%;
+}
+
+.search-button:hover {
+    background: rgb(31, 31, 252);
+}
+
+.select-item{
+    width: 20%;
+    padding: 3px;
+    margin: 30px;
+    border-radius: 5px;
+}
+
+/* .tags{
+    display: grid;
+    column-gap:50px;
+    margin-top: 50vh;
+    margin: 30vh;
+    background-color:white;
+} */
+
