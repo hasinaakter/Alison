@@ -44,8 +44,18 @@ display: flex;
     border-radius: 5px;
 }
 
-.tags{
-    margin: 50px;
+ .grid-container {
+    display: grid;
+    column-gap: 30px;
+    row-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5px;
+  }
+  .grid-tags{
+    margin: 50px 30px 50px;
     background-color:white;
+    border-radius: 3px;
+    padding: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px 1px rgba(12, 12, 23, 0.2);
 }
-
