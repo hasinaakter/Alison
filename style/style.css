@@ -103,12 +103,14 @@ body{
         /* border: solid; */
         display: flex;
         justify-content: center;
+        overflow: auto;
     }
     .grid-container {
         display: grid;
         margin: 0px 30px 0px;
         grid-template-columns: repeat(1, 1fr);
         padding: 5px;
+        overflow: auto;
     }
 
     .first-part {
@@ -126,6 +128,7 @@ body{
         background-color: white;
         float: left;
         width: 70%;
+        overflow: auto;
     }
 
     .search-button {
@@ -138,6 +141,7 @@ body{
         /* border: 1px solid rgb(218, 16, 16); */
         border-radius: 3px;
         float: left;
+        overflow: auto;
     }
 
     .select-item {
@@ -145,6 +149,7 @@ body{
         padding: 3px;
         border-radius: 5px;
         margin-top: 10px;
+        overflow: auto;
 
     }
   
