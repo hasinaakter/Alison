@@ -6,7 +6,6 @@ body {
 .footer-container {
     background-color: #0b2441;
     height: 100vh;
-
 }
 
 .footer-main {
@@ -97,7 +96,11 @@ hr {
 
 
 @media only screen and (max-width: 600px) {
-
+    .footer-container {
+        background-color: #0b2441;
+        height: auto;
+    
+    }
     
 .footer-container {
     background-color: #0b2441;
@@ -116,5 +119,9 @@ hr {
     margin: 0px;
     overflow: auto;
 }
+.footer-topics{
+    display: flex;
+}
+
 
 }
