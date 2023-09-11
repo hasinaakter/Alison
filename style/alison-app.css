@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.inner-wraping {
+background: rgb(234, 232, 232);
+height: 350px;
+background-image: url("https://cdn01.alison-static.net/public/html/site/img/app-landing-header-desktop.png");
+background-size: 550px;
+background-repeat: no-repeat;
+width: 100%;
+background-position:right; 
+}
+
+.learning-app{
+    max-width: 100%;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  
+}
+.learning-app h1{
+    font-family: Roboto, sans-serif;
+    color: black;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 16px;
+}
+
+.read{
+    max-width: 50%;
+    font-size: 17px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
+
+.play-badge{
+    display: flex;
+    gap: 20px;
+    max-width: 40%;
+}
+
+.learners{
+    width: 280px;
+    padding: 5px 10px;
+    background: white;
+    border-radius: 5px;
+    box-shadow:  0px 1px 4px 4px rgb(188, 187, 187);
+}
+
+.learners span{
+    font-weight:700;
+    color: #1b232e;
+}
+.learners span::before{
+    background-color: #496d0f;
+    border-radius: 10px;
+    content: " ";
+    display: inline-block;
+    height: 10px;
+    margin-right: 10px;
+    width: 10px;
+}
+
+.small-img{
+    display: none;
+
+}
+.reviews-part{
+        background: rgb(29, 110, 223);
+        height: 200px;
+        width: 100%;
+        align-items:center ;
+     
+}
+
+.reviews{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.reviews h2{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: left;
+    width: 50%;
+}
+
+.point-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.point{
+    display: flex;
+    gap: 10px;
+}
+
+.person-1{
+    width: 50%;
+}
+
+.person-1 p {
+    color: #fff;
+   
+}
+.graduate{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.graduate img{
+    height: 60px;
+    width:60px;
+}
+
+#stars{
+    color: rgb(240, 192, 70);
+}
+
+@media only screen and (max-width: 900px) {
+    
+    .small-img{
+        display: block;
+        overflow: auto;
+
+    }
+
+    .inner-wraping {
+        background: rgb(205, 205, 205);
+        height: auto;
+        background-size: 550px;
+        max-width: 100%;
+        overflow: auto;
+        }
+
+        .learning-app h1{
+            font-weight: 900;
+            font-size: 14px;
+        }   
+        .read{
+            font-size: 12px;
+            line-height: 20px;
+            margin-bottom: 10px;
+            max-width: 90%;
+            overflow: auto;
+            padding: 5px;
+       
+        }
+
+        .play-badge{
+            gap: 2px;
+            max-width: 100%;
+
+        }
+
+        .point-group{
+            display: inline-flex;
+            flex-direction:column;
+            justify-content: center;
+            padding: 10px;
+        }
+
+            .reviews{
+                display: inline-flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .reviews-part{
+                background: rgb(29, 110, 223);
+                height: auto;
+                width: 100%;
+                align-items:center ;
+             
+        }
+        .reviews h2{
+            color: #fff;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px;
+            text-align: center;
+        }
+
+        .learners{
+            text-align: center;
+            width: 300px;
+        }
+
+        .learning-app {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 10px;
+        }
+   
+
+}
